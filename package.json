@@ -1,6 +1,7 @@
 {
   "name": "elixir-formatter-vscode",
   "displayName": "elixir-formatter",
+  "publisher": "longkui-clown",
   "description": "An Formatter Extention for Elixir files, filter bug in extention [Elixir Formatter] that cannot format success in windows.",
   "version": "0.0.1",
   "engines": {
@@ -32,7 +33,9 @@
     }]
   },
   "scripts": {
+    "init": "tsc --init",
     "vscode:prepublish": "tsc",
+    "compile": "tsc -watch -p ./",
     "lint": "eslint .",
     "pretest": "npm run lint",
     "test": "node ./test/runTest.js"
