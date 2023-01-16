@@ -2,9 +2,13 @@
 
 This is the README for vscode extension "elixir-formatter-vscode", this extention can also use in windows. By default, this extension runs `mix format` with elixir file. 
 
+### 0.0.2
+
+- use three type of commond string to format file.
+
 ### 0.0.1
 
-First release version.
+- First release version.
 
 ## For more information
 

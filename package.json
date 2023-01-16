@@ -3,7 +3,7 @@
   "displayName": "elixir-formatter",
   "publisher": "longkui-clown",
   "description": "An Formatter Extention for Elixir files, filter bug in extention [Elixir Formatter] that cannot format success in windows.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.0.0"
   },
